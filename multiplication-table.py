@@ -1,6 +1,6 @@
 """
 multiplication-table.py
-Author: <your name here>
+Author: Ryan Kynor
 Credit: <list sources used, if any>
 Assignment:
 
