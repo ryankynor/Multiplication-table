@@ -33,5 +33,5 @@ for width in [1, 2, 3]:
 
 """
 if width > 0:
-    print("X" * width)
+    print("x" * width)
     width = width -1
