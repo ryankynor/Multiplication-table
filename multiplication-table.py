@@ -23,7 +23,7 @@ Height of multiplication table: 8
 """
 
 width = int(input("How wide should the table be? "))
-#height = int(input("How tall should the table be? "))
+height = int(input("How tall should the table be? "))
 
 
 """
@@ -35,3 +35,7 @@ for width in [1, 2, 3]:
 if width > 0:
     print("x" * width)
     width = width -1
+    
+if height > 0:
+    print("x" * width)
+    height = height -1
