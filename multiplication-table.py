@@ -44,7 +44,7 @@ if w > 0:
         h = h-1
 """
 if h > 0:
-    print ([x*(h-(h-1)) for x in range(1,10)])
+    print (x*(h-(h-1)) for x in range(width,height))
     h = h-1
 """
 
