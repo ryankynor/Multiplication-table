@@ -32,10 +32,23 @@ for width in [1, 2, 3]:
        print(width, height)      
 
 """
-if width > 0:
+"""
+h = width
+w = width
+
+if w > 0:
     print("x" * width)
-    width = width -1
-    
+    w = w -1
+    if h > 0:
+        print("x" * width)
+        h = h-1
+"""
+if h > 0:
+    print ([x*(h-(h-1)) for x in range(1,10)])
+    h = h-1
+"""
+
 if height > 0:
     print("x" * width)
     height = height -1
+"""
