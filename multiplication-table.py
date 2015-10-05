@@ -1,7 +1,7 @@
 """
 multiplication-table.py
 Author: Ryan Kynor
-Credit: <list sources used, if any>
+Credit: http://stackoverflow.com/questions/3214926/python-print-in-rows
 Assignment:
 
 Write and submit a Python program that prints a multiplication table. The user 
@@ -26,16 +26,12 @@ width = int(input("How wide should the table be? "))
 height = int(input("How tall should the table be? "))
 
 
+for x in range (1,height+1):
+   for h in range(1,width+1):
+       print(x*h)      
 
-for width in [1, 2, 3]:
-   for height in range(width):
-       print(width, height)      
-
-
-
-h = width
-w = width
-
-if h > 0:
-    print ("X"*(h-(h-1)) for x in range(width,height))
-    h = h-1
+food_list = ['apple', 'pear', 'tomato', 'bean', 'carrot', 'grape']
+size = 4
+g = (food_list[i:i+size] for i in xrange(0, len(food_list), size))
+for i in g:
+    print i
