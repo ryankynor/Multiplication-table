@@ -28,10 +28,6 @@ height = int(input("How tall should the table be? "))
 
 for x in range (1,height+1):
    for h in range(1,width+1):
-       print(x*h)      
+        print(x*h, end='')      
 
-food_list = ['apple', 'pear', 'tomato', 'bean', 'carrot', 'grape']
-size = 4
-g = (food_list[i:i+size] for i in xrange(0, len(food_list), size))
-for i in g:
-    print i
+
