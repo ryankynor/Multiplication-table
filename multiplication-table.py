@@ -26,29 +26,16 @@ width = int(input("How wide should the table be? "))
 height = int(input("How tall should the table be? "))
 
 
-"""
+
 for width in [1, 2, 3]:
    for height in range(width):
        print(width, height)      
 
-"""
-"""
+
+
 h = width
 w = width
 
-if w > 0:
-    print("x" * width)
-    w = w -1
-    if h > 0:
-        print("x" * width)
-        h = h-1
-"""
 if h > 0:
-    print (x*(h-(h-1)) for x in range(width,height))
+    print ("X"*(h-(h-1)) for x in range(width,height))
     h = h-1
-"""
-
-if height > 0:
-    print("x" * width)
-    height = height -1
-"""
