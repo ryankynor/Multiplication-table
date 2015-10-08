@@ -27,7 +27,7 @@ height = int(input("How tall should the table be? "))
 
 for x in range (1,height+1):
     for h in range(1,width+1):
-        print(x*h, end=" ")
+        print("{0:>3}".format(x*h), end=" ")
     print()
 
 
